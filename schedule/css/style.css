@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption {
+    color: black;
+}
+th {
+    background-color: black;
+    color: white;
+}
+.Webtechnologie {
+    background-color: red;
+    color: white;
+}
+.Databanken {
+    background-color: blue;
+    color: white;
+}
+.IT-Essentials {
+    background-color: purple;
+    color: white;
+}
+.IT-Organisatie {
+    background-color: pink;
+    color: black;
+}
+

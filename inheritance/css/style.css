@@ -1,0 +1,56 @@
+/* Experiment 1: kleur overerven */
+section {
+color: darkslategray;
+}
+
+/* Experiment 2: font-family overerven */
+nav {
+font-family: Arial, sans-serif;
+}
+
+button {
+font-family: inherit;
+}
+
+/* Experiment 3: initial */
+article {
+font-size: 18px;
+}
+
+.test {
+font-size: initial;
+}
+
+/* CSS-variabelen */
+{
+--cel-achtergrond: lightblue;
+--cel-tekst: darkslategray;
+}
+
+/* De variabelen gebruiken */
+td {
+background-color: var(--cel-achtergrond);
+color: var(--cel-tekst);
+padding: 10px;
+}
+
+/* Variabelen aanpassen voor één rij */
+tr(3) {
+--cel-achtergrond: lightyellow;
+--cel-tekst: darkred;
+}
+
+/* Tabel opmaken */
+table {
+border-collapse: collapse;
+}
+
+td,
+th {
+border: 1px solid black;
+padding: 10px;
+}
+
+th {
+background-color: lightgray;
+}

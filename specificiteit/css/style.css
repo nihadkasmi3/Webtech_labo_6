@@ -1,0 +1,39 @@
+/*
+	paragraaf 1: is groen want aricle p heeft een hogere specifiteit dan p.
+    paragraag 2: is blauw want .intro heeft een hogere specifiteit dan article p.
+    paragraag 3: is oranje want p.intro.highlight heeft de hoogste specificiteit van de passende selectors.
+    paragraaf 4: is paars want #summary heeft een hogere specificiteit dan de andere passende selectors.
+    paragraaf 5: is magenta want .alert en .tip hebben dezelfde specificiteit en .alert staat later in de stylesheet.
+*/
+/* 0,0,0,1 */
+p {
+	color: black;
+/* 0,0,0,2 */    
+}
+article p {
+	color: green;
+}
+/* 0,0,1,0 */
+.intro {
+	color: blue;
+}
+/* 0,0,1,0 */
+.highlight {
+	color: teal;
+}
+/* 0,0,2,1 */
+p.intro.highlight {
+	color: orange;
+}
+/* 0,1,0,0 */
+#summary {
+	color: purple;
+}
+/* 0,0,1,0 */
+.tip {
+	color: brown;
+}
+/* 0,0,1,0 */
+.alert {
+	color: magenta;
+}
